@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Curry Calculator</title>
+</head>
+<body>
+    <div class="header">
+        <img src="curry.svg" alt="Poppadoms" class="poppadom-image">
+        <h4><i>The Poppadom Prophet's</i></h4>
+        <h1>Curry Calculator</h1>
+    </div>
+
+    <div class="calculator-container">
+        <label for="peopleCount">Number of People Eating Curry:</label>
+        <input type="number" id="peopleCount" placeholder="Enter a number" min="0" required>
+        <button onclick="calculateCurryItems()">Calculate</button>
+    </div>
+    <div id="results-container" class="results-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
