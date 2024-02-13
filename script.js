@@ -10,7 +10,7 @@ function calculateCurryItems() {
 
     // Calculate quantities
     var poppadomsCount = Math.ceil(peopleCount * 2 + 1);
-    var naanBreadCount = Math.ceil(peopleCount / 2);
+    var naanBreadCount = Math.ceil(peopleCount / 2 + 1);
     var relishTrayCount = Math.ceil(peopleCount / 5);  //add rounding function later
     var riceBowlCount = Math.ceil(peopleCount);
     var starterCount = Math.ceil(peopleCount / 2);
